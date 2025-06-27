@@ -1,0 +1,18 @@
+{
+  "name": "video-ai-streamer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd server && node index.js",
+    "dev": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "dev:full": "concurrently \"npm run dev\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Video AI Streamer API using Express.js",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
